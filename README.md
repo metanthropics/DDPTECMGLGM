@@ -26,8 +26,8 @@ We then evaluate by training a new linear classifier from scratch on the distill
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/
-cd linear-gradient-matching/src
+git clone https://github.com/metanthropics/DDPTECMGLGM
+cd DDPTECMGLGM/src
 ```
 
 2. Create a virtual environment:
