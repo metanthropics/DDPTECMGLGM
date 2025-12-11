@@ -1,6 +1,6 @@
 # Dataset Distillation for the Pre-Training Era: Cross-Model Generalization via Linear Gradient Matching.
 
-**[Project Page]() | [arXiv]()**
+**[Project Page](https://metanthropics.github.io/DDPTECMGLGM-website/) | [arXiv]()**
 
 [Metanthropic](https://metanthropic.vercel.app) · [Ekjot Singh]()
 
@@ -15,7 +15,7 @@ Metanthropic
 </p>
 
 We optimize our synthetic images such that they induce similar gradients as real images when training a linear classifier (W) on top of a pre-trained model (ϕ). To do this, we perform a bi-level optimization by finding the cosine distance between the real and synthetic gradients and back-propagating through the initial gradient calculation all the way to the synthetic images themselves.
-We then evaluate by training a new linear classifier from scratch on the distilled data. Please see our [Project Page]() and [Paper]() for more details.
+We then evaluate by training a new linear classifier from scratch on the distilled data. Please see our [Project Page](https://metanthropics.github.io/DDPTECMGLGM-website/) and [Paper]() for more details.
 
 ## Installation
 
